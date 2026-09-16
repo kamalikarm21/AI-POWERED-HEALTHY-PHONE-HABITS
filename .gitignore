@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+tunnel.log
+
+# Temp deploy scripts
+auto-deploy.js
+auto-deploy.mjs
+deploy-github.js
+get-tunnel-url.js
+push-to-github.bat
+PortableGit.exe
